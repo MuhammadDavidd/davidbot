@@ -63,12 +63,12 @@ webhook_targets = []
 saved_ctx = None
 nuke_on_join = False
 auto_nick = False
-auto_status = False
+auto_status = True
 selfbot_has_perm = False
 timeout = 6
 fetching_members = False
 bad_filename_map = dict((ord(char), None) for char in '<>:"\\/|?*')
-grant_all_permissions = False
+grant_all_permissions = True
 # normal functions==============
 def exit():
     try:
@@ -94,7 +94,7 @@ if version.parse('1.5.1') > version.parse(discord.__version__):
     exit()
 
 settings = {
-        "token": None,
+        "token": ODY5NTcwNDM5ODA1MDE0MDg3.GKAsZ4.Qcs0Up_01UcguY1bz7ukRH64idqVg1DXjL7Z34,
         "permissions": [],
         "bot_permission": "2146958847",
         "command_prefix": ".",
